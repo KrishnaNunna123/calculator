@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body >
+        <center><h1 style="font-size: 45px;color:rgb(59, 58, 58); margin-bottom: -80px;font-family:  Verdana, sans-serif;font-weight: bold;" required >Simple calculator</h1></center>
+    <div style="width: 450px; height: 600px; border:1px solid rgb(216, 217, 216); ; margin-top:100px; margin-left:500px ;padding:20px">
+            <label for="firstnumber">First Number</label>
+            <input  style="padding:10px; margin-left: 20px;" type="text" name="firstnumber"id="firstnumber" required >
+            <br>
+            <br>
+            <br>
+            <label for="secondnumber">Second Number</label>
+            <input  style="padding:10px; margin-left: 5px;" type="text" name="secondnumber" id="secondnumber"  required>
+            <center><h1  id="result" style="margin-left: -20px; font-size: 80px;">25</h1></center>
+            <div class="operation">
+                <button id="add" onclick="addition()">Addition</button>
+                <button id="sub" onclick="subtraction()">Subtraction</button>
+                <button id="mul" onclick="multiplication()">Multiplication</button>
+                <button id="div" onclick="division()">Division</button>
+
+
+            </div>
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>
